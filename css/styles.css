@@ -52,7 +52,7 @@ body {
   color: #a6a6a6;
 }
 
-/*.text > span {
+.text>span {
   display: block;
   background-color: #fff;
   width: 120px;
@@ -63,7 +63,8 @@ body {
   transition: transform .3s ease-in-out, color .3s ease-in-out, background-color .3s ease-in-out, -webkit-transform .3s ease-in-out;
   box-shadow: 0 40px 50px rgba(0, 0, 0, 0.1);
 }
-.text > span:first-child {
+
+/*.text > span:first-child {
   border-radius: 5px 0 0 5px;
 }
 
