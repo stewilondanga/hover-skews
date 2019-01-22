@@ -31,11 +31,12 @@ body {
   transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
 }
 
-/*.text:hover {
+.text:hover {
   -webkit-transform: rotateX(35deg), translateY(-50%);
-          transform: rotateX(35deg), translateY(-50%);
+  transform: rotateX(35deg), translateY(-50%);
 }
-.text:hover span {
+
+/*.text:hover span {
   color: #ccc;
 }
 .text:hover span:nth-child(odd) {
