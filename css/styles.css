@@ -19,18 +19,19 @@ body {
   height: 1.5em;
 }
 
-/*.text {
+.text {
   display: flex;
   justify-content: center;
   margin-top: 50vh;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   text-align: center;
   transition: -webkit-transform .3s ease-in-out;
   transition: transform .3s ease-in-out;
   transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
 }
-.text:hover {
+
+/*.text:hover {
   -webkit-transform: rotateX(35deg), translateY(-50%);
           transform: rotateX(35deg), translateY(-50%);
 }
