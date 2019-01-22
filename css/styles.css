@@ -36,10 +36,11 @@ body {
   transform: rotateX(35deg), translateY(-50%);
 }
 
-/*.text:hover span {
+.text:hover span {
   color: #ccc;
 }
-.text:hover span:nth-child(odd) {
+
+/*.text:hover span:nth-child(odd) {
   -webkit-transform: skewY(15deg);
           transform: skewY(15deg);
 }
