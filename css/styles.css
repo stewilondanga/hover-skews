@@ -40,11 +40,12 @@ body {
   color: #ccc;
 }
 
-/*.text:hover span:nth-child(odd) {
+.text:hover span:nth-child(odd) {
   -webkit-transform: skewY(15deg);
-          transform: skewY(15deg);
+  transform: skewY(15deg);
 }
-.text:hover span:nth-child(even) {
+
+/*.text:hover span:nth-child(even) {
   -webkit-transform: skewY(-15deg);
           transform: skewY(-15deg);
   background-color: #f9f9f9;
